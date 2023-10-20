@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white">
+
+    <!--
+    Item - это каждый элемент списка, в item xml
+    верстается дизайн элемента
+    -->
+
+    <ImageView
+        android:id="@+id/image_kitsu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_kitsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white"
+        android:textSize="9sp" />
+</androidx.cardview.widget.CardView>
